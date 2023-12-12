@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="testsuite" verbose="1">
+    <groups>
+        <run>
+            <include name="sanity"></include>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="com.tutorialsninja.demo.customlistener.CustomListeners"></listener>
+    </listeners>
+    <test name="Tutotial Ninja Test">
+        <classes>
+            <class name="com.tutorialsninja.demo.testsuite.MyAccountsTest"></class>
+            <class name="com.tutorialsninja.demo.testsuite.TopMenuTest"></class>
+            <class name="com.tutorialsninja.demo.testsuite.DesktopsTest"></class>
+            <class name="com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksTest"></class>
+
+        </classes>
+    </test>
+</suite>
