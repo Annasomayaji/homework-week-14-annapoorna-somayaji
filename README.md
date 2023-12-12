@@ -1,1 +1,1 @@
-Demo-nopcommerce has been redon as 'part 2'
+Demo-nopcommerce has been redone as 'part 2'
